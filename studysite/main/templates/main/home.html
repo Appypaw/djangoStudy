@@ -1,6 +1,5 @@
 {% extends 'main.html' %}
 
-
 {% block content %}
 
 <h1>HOME TEMPLATE</h1>
@@ -10,7 +9,7 @@
     <div>
         {% for room in rooms %}
             <div>
-                <h5>{{room.id}} -- <a href="/room/{{room.id}}""> {{room.name}}</h5>
+                <h5>{{room.id}} -- <a href="/room/{{room.id}}"> {{room.name}}</h5>
             </div>
         {% endfor %}
     </div>
